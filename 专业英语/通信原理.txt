@@ -1,0 +1,67 @@
+简称	英文	中文
+VC	virtual channel	虚通道
+TDM	time division multiplexing	时分复用
+FDM	frequency division multiplexing	频分复用
+CDM	code division modulation	码分复用
+CDMA	code division modulation access	码分多址
+STM	synchronous transfer mode	同步移位模式
+ROM	read only memory	只读存储器
+RAM	random access memory	随机存取存储器
+APK	amplitude phase keying	幅相键控
+ASK	amplitude shift keying	振幅键控
+PSK	phase shift keying	相移键控
+QPSK	quadrature phase shift keying	正交相移键控
+OQPSK	offset quadrature phase shift keying	偏置正交相移键控
+OOK	on off keying	通断键控
+DPSK	differential phase shift keying	差分相移键控
+QDPSK	quadrature differential phase shift keying	正交差分相移键控
+QAM	quadrature amplitude modulation	正交振幅调制
+AM	amplitude modulation	振幅调制
+PM	pulse modulation	脉冲调制
+PCM	pulse code modulation	脉码调制
+PAM	pulse amplitude modulation	脉幅调制
+PDM	pulse duration modulation	脉宽调制
+DPCM	differential pulse code modulation	差分脉码调制
+BPF	band pass filter	带通滤波器
+LPF	low pass filter	低通滤波器
+QPR	quadrature partial response	正交部分响应
+PLL	pulse-locked loop	锁相环
+PDU	protocol data unit	协议数据单元
+PIX	pixel	像素
+LED	light-emitting diode	发光二极管
+FIR	finite impulse response	有限冲激响应
+IIR	infinite impulse response	无限冲激响应
+IEEE	institute of electrical and electronics engineers	电气和电子工程师学会
+DLC	data link control	数据链路控制
+GPS	global position system	全球定位系统
+GPRS	general packet radio services	通用分组无线业务
+GSM	global system for mobile communication	全球移动通信系统
+AU	administration unit	管理单元
+OSI	open system interconnection	开放系统互联
+CRC	cyclic redundancy check	循环冗余校验
+通信 & 信息论
+英文缩写	英文全称	翻译	简介
+BSC	Binary Symmetric Channel	二进制对称信道	二进制对称信道的输入和输出都只有 0 和 1 两种符号，并且发送 0 而接收到 1，以及发送 1 而收到 0（即误码）的 概率相同，所以称信道是对称的。此时条件差错概率由 p 表示。
+CSI	Channel State Information	信道状态信息	在无线通信领域，CSI 就是指通信链路的信道属性。它描述了信号在每条传输路径上的 衰弱因子，即信道增益矩阵 H 中每个元素的值，如信号散射、环境衰弱、距离衰减等信息。CSI 可以使通信系统适应当前的信道条件，在 多天线 系统中为高可靠性、高速率的通信提供了保障。
+BER	Bit Error Ratio	误比特率	误比特率是衡量数据在规定时间内传输精确性的指标。指的是在数据通信中，一定时间内收到的数字信号中 发生差错的比特数 与同一时间内所接收到的数字信号的 总比特数 之比。
+SER	Symbol Error Ratio	误码率	误码率 = 传输的 误码元数 / 所传输的 总码元数 * 100%。如果有误码就有误码率。 另外，也可以将误码率定义为用来衡量误码出现的频率。
+SNR	Signal Noise Ratio	信噪比	信噪比是指一个电子设备或者电子系统中 信号 与 噪声 的比例。其中信号指的是来自设备外部、需要通过这台设备进行处理的电子信号，噪声是指经过该设备的原信号中并不存在的、无规则的额外信号（或信息），并且该种信号并不随原信号的变化而变化。
+SINR	Signal to Interference plus Noise Ratio	信号与干扰和噪声比	信号与干扰加噪声比是指接收到的有用信号的强度与接收到的干扰信号（噪声和干扰）的强度的比值。可以简单地将其理解为 “信噪比”。
+STBC	Space-Time Block Coding	空时分组码	空时分组码是一种在无线通信中使用的技术，用于在多个天线上发送数据流的 多个副本，并利用接收的各种数据版本来提高数据传输的可靠性。这种 冗余 能够使得利用一个或多个接收到的副本来正确解码接收信号的机会更高。空时分组码以最佳方式组合所接收信号的所有副本，以尽可能多地从每个副本中提取信息。
+STTD	Space Time Transmit Diversity	空时传输分集	空时传输分集是基于 空时分组码 的一种发送分集技术，是最简单的空时分组码，它采用两根发射天线，一根接收天线。该方案已经被选为第三代移动通信系统 WCDMA 的一种标准。
+MRC	Maximum Ratio Combining	最大比合并	MRC 是对多路信号进行 同相加权合并，权重是由各支路信号所对应的 信噪比 所决定的，最大比合并的输出 SNR 等于各路 SNR 之和。所以，即使当各路信号都很差使得没有一路信号可以被单独解调出时，MRC 算法仍有可能合成出一个达到 SNR 要求的可被解调的信号，它是 最佳 的抗衰落线性分集合并技术。
+MLD	Maximum Likelihood Detector	最大似然检测器	最大似然检测器是一种更加实用的 非线性 MIMO 接收器， 它在根本上是一个彻底的并列搜索。MLD 在处理方面比传统线性接收器要求更高，但对于相同的信道条件，可明显提供更高的比特率。另外，对于具有天线相关性的信道，MLD 更稳健可靠。使用高阶的 MIMO 规格可以显著改进频谱效率，但随着规格的增加，MLD 接收器的计算复杂性以 指数 方式增加。高阶 MIMO 要求相当大的处理能力，对于这一点，直接的 MLD 方法是不切实际的，必须使用 次优 MLD 算法 来实现。
+Pe	Probability of error	误码率	误码率是最常用的数据通信传输质量指标。它表示数字系统传输质量的方式是 “在多少位数据中出现了一位差错”。误码率 = 传输中的误码 / 所传输的总码数 * 100%，如果有误码就有误码率。 另外，也有将误码率定义为用来衡量误码出现的频率。
+Ne	Number of error	出错的位数	由于种种原因，数字信号在传输过程中不可避免地会产生差错。例如在传输过程中受到外界的干扰，或在通信系统内部由于各个组成部分的质量不够理想而使传送的信号发生畸变等。当受到的干扰或信号畸变达到一定程度时，就会产生差错。在数据通信中，如果发送的信号是“1”，而接收到的信号却是“0”，这就是“误码”，也就是发生了一个差错。而 Ne 就表示了在一段时间内被传错的码元数目。
+FSTD	Frequency Switch Transmit Diversity	频率切换发送分集	在频率切换发射分集的方式中，不同的天线支路使用 不同的子载波集合 进行发送，减小了子载波之间的 相关性，使等效信道产生了 频率选择性，从而可以利用纠错编码提高性能。
+VCO	Voltage-Controlled Oscillator	压控振荡器	压控振荡器是指 输出频率 与 输入控制电压 有对应关系的振荡电路，或者说 频率是输入信号电压函数 的振荡器。如果振荡器的工作状态或振荡回路的元件参数受输入电压的控制，就可构成一个压控振荡器。
+GMSC	Gateway Mobile Switching Center	网关移动交换中心	GMSC 可以从 HLR 查询得到被叫 MS 当前的漫游号码，并根据此信息 选择路由。它可以是任意的 MSC，也可以单独设置。单独设置时，不处理 MS 的呼叫，因此不需设 VLR ，不与 BSC 相连。
+IMSI	International Mobile Subscriber Identification Number	国际移动用户识别码	IMSI 是区别移动用户的标志，储存在 SIM 卡中，可用于 区别移动用户的有效信息。其总长度不超过 15 位，使用 0~9 的数字。IMSI 是在 GSM 系统中对 MS 的唯一识别，在全网和全球范围内唯一。IMSI存储在 SIM 或 USIM 卡、网络侧网元 HLR 和 VLR 中，在无线接口及 MAP 接口上传送。
+IMEI	International Mobile Equipment Identity	国际移动设备识别码	IMEI 即通常所说的手机序列号、手机“串号”，用于 在移动电话网络中识别每一部独立的手机等移动通信设备，相当于移动电话的身份证。序列号共有 15~17 位数字，前 8 位（TAC）是型号核准号码（早期为 6 位），是区分手机品牌和型号的编码。接着 2 位（FAC）是最后装配号（仅在早期机型中存在），代表最终装配地代码。后 6 位（SNR）是串号，代表生产顺序号。最后 1 位（SP）一般为 0，是检验码，备用。
+HSS	Home Subscriber Server	归属签约用户服务器	HSS 是 EPS（4G） 中用于存储 用户签约信息 的服务器，是 2G/3G 网元 HLR 的演进和升级，主要负责管理 用户的签约数据 及 移动用户的位置信息。
+PCC	Policy and Charging Control	策略和计费控制	PCC 是在现有移动分组核心网上叠加的 一套端到端策略和计费控制架构，支持 2G/3G/LTE 的融合控制。通俗地讲，网络上会预先配置一些“规则”，这些“规则”是结合市场、业务、用户等特性制定的。当用户使用网络时，如果用户特性符合这些“规则”，网络即对用户采取一定的措施，例如提升或限制用户速率。这些“规则”主要通过 PCC 来实施。PCC 系统是 LTE 系统的基本组成部分，LTE 下 PCC 将会在分质服务、分质定价、支撑灵活计费、开展实时提醒、促进用户使用网络等方面发挥更大作用，丰富流量经营策略，增大流量收益。
+SIM	Subscriber Identity Module	用户身份模块	SIM 卡也称为用户身份识别卡、智能卡。GSM 数字移动电话机必须装上此卡方能使用。 它在电脑芯片上存储了 数字移动电话客户的信息，加密的密钥以及用户的电话簿 等内容，可供 GSM 网络客户身份进行鉴别，并对客户通话时的语音信息进行加密。SIM 由 CPU、ROM、RAM、EEPROM 和 I/O 电路组成。用户使用 SIM 时，实际上是手机向 SIM 卡发出命令，SIM 卡应该根据标准规范来执行或者拒绝，它 并不是单纯的信息存储器。
+EIR	Equipment Identity Register	设备标识寄存器	手机用户发起呼叫，移动交换中心（MSC）和拜访位置寄存器（VLR）向移动台请求 IMEI，并把它发送给 EIR，EIR 将收到的 IMEI 与白、黑、灰三种表进行比较，把结果发送给 MSC/VLR，以便 MSC/VLR 决定是否允许该移动台设备进入网络。因此如果该移动台使用的是偷来的手机或者有故障未经型号认证的移动设备，那么 MSC/VLR 将据此确定被盗移动台的位置并将其阻断，对故障移动台也能采取及时的防范措施。我们通常所说的 通过网络追踪器追踪被盗手机 就是通过 EIR 实现的。
+PLMN	Public Land Mobile Network	公共陆地移动网络	公共陆地移动网络是由政府或它所批准的经营者，为公众提供陆地移动通信业务目的而建立和经营的网络。PLMN = MCC + MNC，例如中国移动为 46000，中国联通为 46001。PLMN 是一个 无线通讯系统，面向于交通工具或步行中的移动用户。这样的系统可以是独立的，但常常和固定电话系统，如公用交换电话网络（PSTN）连接起来。一个理想的 PLMN 系统提供给移动用户与固定网络相当的服务，这在地形比较复杂的区域是一个特殊的挑战，因为基站难以找到和维持。在都市环境中有很多的 障碍，建筑物和各种射频都能引起噪声和干扰的辐射。
+MAP	Mobile Application Part	移动应用部分	MAP 是 七号信令 的子集。它用于连接分布式交换单元（MSC）和主数据库（HLR）。HLR 能动态存储移动网络用户的当前位置和预置文件。在处理拨入呼叫的过程中需要使用 HLR。当 网络用户位置改变 时，HLR 也要相应更新，用户便由网络中的其他交换机服务。MAP 协议的主要内容包括 移动性管理、呼叫业务处理、补充业务处理、短消息业务处理、操作维护和 GPRS 业务处理 等
+

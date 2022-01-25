@@ -1,0 +1,439 @@
+电路的基本概念及定律
+电源 source
+电压源 voltage source
+电流源 current source
+理想电压源 ideal voltage source
+理想电流源 ideal current source
+伏安特性 volt-ampere characteristic
+电动势 electromotive force
+电压 voltage
+电流 current
+电位 potential
+电位差 potential difference
+欧姆 Ohm
+伏特 Volt
+安培 Ampere
+瓦特 Watt
+焦耳 Joule
+电路 circuit
+电路元件 circuit element
+电阻 resistance
+电阻器 resistor
+电感 inductance
+电感器 inductor
+电容 capacitance
+电容器 capacitor
+电路模型 circuit model
+参考方向 reference direction
+参考电位 reference potential
+欧姆定律 Ohm’s law
+基尔霍夫定律 Kirchhoff’s law
+基尔霍夫电压定律 Kirchhoff’s voltage law（KVL）
+基尔霍夫电流定律 Kirchhoff’s current law（KCL）
+结点 node
+支路 branch
+回路 loop
+网孔 mesh
+支路电流法 branch current analysis
+网孔电流法 mesh current analysis
+结点电位法 node voltage analysis
+电源变换 source transformations
+叠加原理 superposition theorem
+网络 network
+无源二端网络 passive two-terminal network
+有源二端网络 active two-terminal network
+戴维宁定理 Thevenin’s theorem
+诺顿定理 Norton’s theorem
+开路（断路）open circuit
+短路 short circuit
+开路电压 open-circuit voltage
+短路电流 short-circuit current
+
+交流电路
+直流电路 direct current circuit (dc)
+交流电路 alternating current circuit (ac)
+正弦交流电路 sinusoidal ac circuit
+平均值 average value
+有效值 effective value
+均方根值 root-mean-squire value (rms)
+瞬时值 instantaneous value
+电抗 reactance
+感抗 inductive reactance
+容抗 capacitive reactance
+法拉 Farad
+亨利 Henry
+阻抗 impedance
+复数阻抗 complex impedance
+相位 phase
+初相位 initial phase
+相位差 phase difference
+相位领先 phase lead
+相位落后 phase lag
+倒相，反相 phase inversion
+频率 frequency
+角频率 angular frequency
+赫兹 Hertz
+相量 phasor
+相量图 phasor diagram
+有功功率 active power
+无功功率 reactive power
+视在功率 apparent power
+功率因数power factor
+功率因数补偿 power-factor compensation
+串联谐振 series resonance
+并联谐振 parallel resonance
+谐振频率 resonance frequency
+频率特性 frequency characteristic
+幅频特性amplitude-frequency responsecharacteristic
+相频特性 phase-frequency response characteristic
+截止频率 cutoff frequency
+品质因数 quality factor
+通频带 pass-band
+带宽 bandwidth (BW)
+滤波器 filter
+一阶滤波器 first-order filter
+二阶滤波器 second-order filter
+低通滤波器 low-pass filter
+高通滤波器 high-pass filter
+带通滤波器 band-pass filter
+带阻滤波器 band-stop filter
+转移函数 transfer function
+波特图 Bode diagram
+傅立叶级数 Fourier series
+
+三相电路
+三相电路 three-phase circuit
+三相电源 three-phase source
+对称三相电源 symmetrical three-phase source
+对称三相负载 symmetrical three-phase load
+相电压 phase voltage
+相电流 phase current
+线电压 line voltage
+线电流 line current
+三相三线制 three-phase three-wire system
+三相四线制 three-phase four-wire system
+三相功率 three-phase power
+星形连接 star connection(Y-connection)
+三角形连接 triangular connection(D- connection,delta connection)
+中线 neutral line
+
+电路的暂态过程分析
+暂态 transient state
+稳态 steady state
+暂态过程，暂态响应 transient response
+换路定理 law of switch
+一阶电路 first-order circuit
+三要素法 three-factor method
+时间常数 time constant
+积分电路 integrating circuit
+微分电路 differentiating circuit
+
+磁路与变压器
+磁场magnetic field
+磁通 flux
+磁路 magnetic circuit
+磁感应强度 flux density
+磁通势 magnetomotive force
+磁阻 reluctance
+
+电动机
+直流电动机 dc motor
+交流电动机 ac motor
+异步电动机 asynchronous motor
+同步电动机 synchronous motor
+三相异步电动机 three-phase asynchronous motor
+单相异步电动机 single-phase asynchronous motor
+旋转磁场 rotating magnetic field
+定子 stator
+转子 rotor
+转差率 slip
+起动电流 starting current
+起动转矩 starting torque
+额定电压 rated voltage
+额定电流 rated current
+额定功率 rated power
+机械特性 mechanical characteristic
+
+继电器-接触器控制
+按钮 button
+熔断器 fuse
+开关 switch
+行程开关 travel switch
+继电器 relay
+接触器 contactor
+常开(动合)触点 normally open contact
+常闭(动断)触点 normally closed contact
+时间继电器 time relay
+热继电器 thermal overload relay
+中间继电器 intermediate relay
+可编程控制器（PLC）
+可编程控制器 programmable logic controller
+语句表 statement list
+梯形图 ladder diagram
+
+半导体器件
+本征半导体intrinsic semiconductor
+掺杂半导体doped semiconductor
+P型半导体 P-typesemiconductor
+N型半导体 N--typesemiconductor
+自由电子 free electron
+空穴 hole
+载流子 carriers
+PN结 PN junction
+扩散 diffusion
+漂移 drift
+二极管 diode
+硅二极管 silicon diode
+锗二极管 germanium diode
+阳极 anode
+阴极 cathode
+发光二极管 light-emitting diode (LED)
+光电二极管 photodiode
+稳压二极管 Zener diode
+晶体管（三极管） transistor
+PNP型晶体管 PNP transistor
+NPN型晶体管 NPN transistor
+发射极 emitter
+集电极 collector
+基极 base
+电流放大系数 current amplification coefficient
+场效应管 field-effect transistor (FET)
+P沟道 p-channel
+N沟道 n-channel
+结型场效应管 junction FET（JFET）
+金属氧化物半导体 metal-oxide semiconductor (MOS)
+耗尽型MOS场效应管 depletion modeMOSFET（D-MOSFET）
+增强型MOS场效应管 enhancementmode MOSFET（E-MOSFET）
+源极 source
+栅极 grid
+漏极 drain
+跨导 transconductance
+夹断电压 pinch-off voltage
+热敏电阻 thermistor
+开路 open
+短路 shorted
+
+基本放大器
+放大器 amplifier
+正向偏置 forward bias
+反向偏置 backward bias
+静态工作点 quiescent point (Q-point)
+等效电路 equivalent circuit
+电压放大倍数 voltage gain
+总的电压放大倍数 overall voltage gain
+饱和 saturation
+截止 cut-off
+放大区 amplifier region
+饱和区 saturation region
+截止区 cut-off region
+失真 distortion
+饱和失真 saturation distortion
+截止失真 cut-off distortion
+零点漂移 zero drift
+正反馈 positive feedback
+负反馈 negative feedback
+串联负反馈 series negative feedback
+并联负反馈 parallel negative feedback
+共射极放大器 common-emitter amplifier
+射极跟随器 emitter-follower
+共源极放大器 common-source amplifier
+共漏极放大器 common-drain amplifier
+多级放大器 multistage amplifier
+阻容耦合放大器 resistance-capacitance coupledamplifier
+直接耦合放大器 direct- coupled amplifier
+输入电阻 input resistance
+输出电阻 output resistance
+负载电阻 load resistance
+动态电阻 dynamic resistance
+负载电流 load current
+旁路电容 bypass capacitor
+耦合电容 coupled capacitor
+直流通路 direct current path
+交流通路 alternating current path
+直流分量 direct current component
+交流分量 alternating current component
+变阻器（电位器）rheostat
+电阻（器）resistor
+电阻（值）resistance
+电容（器）capacitor
+电容（量）capacitance
+电感（器，线圈）inductor
+电感（量），感应系数inductance
+正弦电压 sinusoidal voltage
+
+集成运算放大器及应用
+差动放大器 differential amplifier
+运算放大器 operational amplifier(op-amp)
+失调电压 offset voltage
+失调电流 offset current
+共模信号 common-mode signal
+差模信号 different-mode signal
+共模抑制比 common-mode rejection ratio (CMRR)
+积分电路 integrator（circuit）
+微分电路 differentiator（circuit）
+有源滤波器 active filter
+低通滤波器 low-pass filter
+高通滤波器 high-pass filter
+带通滤波器 band-pass filter
+带阻滤波器 band-stop filter
+波特沃斯滤波器 Butterworth filter
+切比雪夫滤波器 Chebyshev filter
+贝塞尔滤波器 Bessel filter
+截止频率 cut-off frequency
+上限截止频率 upper cut-off frequency
+下限截止频率 lower cut-off frequency
+中心频率 center frequency
+带宽 Bandwidth
+开环增益 open-loop gain
+闭环增益 closed-loop gain
+共模增益 common-mode gain
+输入阻抗 input impedance
+电压跟随器 voltage-follower
+电压源 voltage source
+电流源 current source
+单位增益带宽unity-gain bandwidth
+频率响应 frequency response
+频响特性（曲线）response characteristic
+波特图 the Bode plot
+稳定性stability
+补偿 compensation
+比较器 comparator
+迟滞比较器 hysteresis comparator
+阶跃输入电压step input voltage
+仪表放大器 instrumentation amplifier
+隔离放大器 isolation amplifier
+对数放大器 log amplifier
+反对数放大器antilog amplifier
+反馈通道 feedback path
+反向漏电流 reverse leakage current
+相位phase
+相移 phase shift
+锁相环 phase-locked loop(PLL)
+锁相环相位监测器 PLL phase detector
+和频 sum frequency
+差频 difference frequency
+
+波形发生电路
+振荡器 oscillator
+RC振荡器 RC oscillator
+LC振荡器 LC oscillator
+正弦波振荡器 sinusoidal oscillator
+三角波发生器 triangular wave generator
+方波发生器square wave generator
+幅度 magnitude
+电平level
+饱和输出电平（电压） saturated output level
+
+功率放大器
+功率放大器 power amplifier
+交越失真 cross-over distortion
+甲类功率放大器 class A power amplifier
+乙类推挽功率放大器class B push-pull power amplifier
+OTL功率放大器 output transformerlesspower amplifier
+OCL功率放大器 outputcapacitorless power amplifier
+
+直流稳压电源
+半波整流 half-wave rectifier
+全波整流 full-wave rectifier
+电感滤波器 inductor filter
+电容滤波器 capacitor filter
+串联型稳压电源 series (voltage) regulator
+开关型稳压电源 switching (voltage) regulator
+集成稳压器 IC (voltage) regulator
+
+晶闸管及可控整流电路
+晶闸管 thyristor
+单结晶体管 unijunction transistor（UJT）
+可控整流 controlled rectifier
+可控硅 silicon-controlled rectifier
+峰点 peak point
+谷点 valley point
+控制角 controlling angle
+导通角 turn-on angle
+
+门电路与逻辑代数
+二进制 binary
+二进制数 binary number
+十进制 decimal
+十六进制 hexadecimal
+二-十进制 binary codeddecimal（BCD）
+门电路 gate
+三态门 tri-state gate
+与门 AND gate
+或门 OR gate
+非门 NOT gate
+与非门 NAND gate
+或非门 NOR gate
+异或门 exclusive-OR gate
+反相器 inverter
+布尔代数 Boolean algebra
+真值表 truth table
+卡诺图 the Karnaugh map
+逻辑函数 logic function
+逻辑表达式 logic expression
+
+组合逻辑电路
+组合逻辑电路 combination logic circuit
+译码器 decoder
+编码器 coder
+比较器 comparator
+半加器 half-adder
+全加器 full-adder
+七段显示器 seven-segment display
+
+时序逻辑电路
+时序逻辑电路 sequential logic circuit
+R-S 触发器 R-S flip-flop
+D触发器 D flip-flop
+J-K触发器 J-K flip-flop
+主从型触发器 master-slave flip-flop
+置位 set
+复位 reset
+直接置位端direct-set terminal
+直接复位端direct-reset terminal
+寄存器 register
+移位寄存器 shift register
+双向移位寄存器bidirectional shift register
+计数器 counter
+同步计数器 synchronous counter
+异步计数器asynchronous counter
+加法计数器 adding counter
+减法计数器 subtracting counter
+定时器 timer
+清除（清0）clear
+载入 load
+时钟脉冲 clock pulse
+触发脉冲 trigger pulse
+上升沿 positive edge
+下降沿 negative edge
+时序图 timing diagram
+波形图 waveform
+
+脉冲波形的产生与整形
+单稳态触发器 monostable flip-flop
+双稳态触发器 bistable flip-flop
+无稳态振荡器 astable oscillator
+晶体 crystal
+555定时器 555 timer
+
+模拟信号与数字信号的相互转换
+模拟信号 analog signal
+数字信号 digital signal
+AD转换器 analog-digitalconverter (ADC)
+DA转换器 digital-analogconverter (DAC)
+
+半导体存储器
+只读存储器 read-only memory（ROM）
+随机存取存储器 random-access memory（RAM）
+可编程ROM programmable ROM（PROM）
+
+关于图
+电路图 circuit diagram
+原理图 schematic diagram
+方框图 block diagram
+波特图 Bode plot
+波形图 waveform graph；oscillograph
+卡诺图 Karnaugh Map
+逻辑图 logic diagram
+图1 figure 1
+

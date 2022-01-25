@@ -1,0 +1,128 @@
+parameter 参数          条件语句
+constant 常量      static 静态的             condition
+ variable 变量      extern 外部的             statement) 选择 select
+ identify 标识符     指针： pointer             表达式 expression
+ keywords 关键字           逻辑表达式 logical expression
+ sign 符号           argument 参数            关系表达式 Relational expression 
+ operator 运算符      array 数组              优先 priority
+ statement语句        declaration 声明         运算 operation
+ syntax 语法          represent 表示            结构 structure
+ expression 表达式     manipulate 处理              循环语句
+initialition 初始化      结构体、共用体、链表          (circle statement) 循环 circle
+number format 数据格式     structure 结构          条件 condition 
+ declaration 说明           member成员              变量 variant
+type conversion 类型转换    tag 标记                过程 process
+define 、definition 定义       function 函数            优先 priority
+条件语句：                     enumerate 枚举           运算 operation
+select 选择                  union 联合（共用体）       函数
+ expression 表达式           create 创建              (function) 调用 call
+ logical expression 逻辑表达式      insert 插入        返回值 return value
+ Relational expression 关系表达式       delete 删除        函数 function
+priority优先                         modify 修改         声明 declare
+ operation运算                     文件                   参数 parameter 
+structure 结构                     file 文件          静态的 static 
+循环语句：                     open 打开            外部的 extern
+circle 循环                   close 关闭                数组和指针(array and
+ condition 条件               read 读                   pointer) 数组 array
+ variant 变量                   write 写                  引用 reference
+ process过程                     error 错误          元素 element
+priority优先           序号 主要章节 常用英汉对照词汇 备注    地址 address
+ operation运算         运算符与表达式                   排序 sort 
+数组：             （ operator and expression ） 汉语 英语       字符 character
+ array 数组           常量 constant                         字符串 string 
+ reference 引用         变量 variable                       应用 application
+ element 元素         标识符 identify                      指针 pointer
+ address 地址         关键字 keywords                      参数 argument
+ sort 排序                符号 sign                     数组 array
+ character 字符            运算符 operator               声明 declaration
+ string 字符串           语句 statement                表示 represent 
+ application 应用         语法 syntax                    处理 manipulate  
+函数：                   表达式 Expression               结构体、
+call 调用                初始化 Initialization             共用体
+return value 返回值       数据格式 number format      (structures union 结构 structure 
+function 函数            类型转换 type conversion         成员 member
+ declare 声明            定义 Define 、 definition             标记 tag
+函数 function          archaic a.己废的，古老的     teaching programming 编程教学
+枚举 enumerate           mainmodule 主模块          lengthy a.冗长的，漫长的
+联合 ( 共用体 ) union     sufficient a.充分的，足够的      alter vi./vt.改变
+创建 create            submodule 子模块                 flaw n.缺点裂纹
+插入 insert          data processing 数据处理            devclop vt.发达
+删除 delete         modify v.修正，修改                separate a.各别的
+修改 modify          business application 商业应用          recompile v.编译
+文件              outline n.轮廓，概要               assist n.帮助
+（ file) 文件 file       scientific application 科学应用         cycle n.循环
+打开 open            compose分解                     technician n.技师
+关闭 close             lexical a.字典的，词汇的          remove vt.移动，除去
+读 read              code 代码                         straight line 直线
+写 write              non-programmer n.非编程人员          category n.种类，类项
+错误 error               node vt改为密码                    rectangle n.长方形,矩形
+Program Design 程序设计       notation n.记号法，表示法，注释     P-code p代码
+writing program 编写程序      pseudocode n.伪代码               virtrally ad.事实上
+standardize vt.使标准化       verbosity n.唠叨，冗长       symology n.象征学象征的使用
+coding the program 编程       commas n.逗点逗号          register n.寄存器
+simplify vt.单一化，简单化        record n.记录           to summaries 总之，总而言之
+programming 程序           documentation 文档         by convention 按照惯例
+revision n.校订，修正         subrecord n.子记录         cyptic n.含义模糊的，隐藏的
+programmer n.程序员          flowchart/flow 程表／流程      diamond-shaped a,菱形的
+occupy vt.占领，住进        data division 数据部          bracket n.括号
+logic n.逻辑，逻辑学         visual a.视觉的               decision n判断
+BASIC 初学者通用符号指令代码      procedure division 过程部      obviate 除去，排除
+machine code 机器代码      represent vt.表现，表示，代表  terminal n. a终端机，终端的
+teaching language 教学语言     comprise vt.包含 构成        keyword n.关键字
+debug n.DOS命令，调试       structured techniques结构化技术     card reader 阅读器
+simplicity n.单纯，简朴         operator n.运算符，算子          underline vt.下划线
+compactness a.紧凑的，紧密的  straightforward a.笔直的率直的  translator program 译程序
+timesharing system 分时系统  commercial package 商业软件包   monadic a. monad(单位)的
+description n.描述，说明        subroutine n.子程序       Programming 程序设计
+interactive language 交互式语言         generator n.产生器，生产者dec/binary n.二进制
+break n.中断                driver module 驱动模块           source language 源语
+manufacturer n.制造业者        mathematician n.专家       shift 变化，转移，移位
+structure chart 结构图          line by line 逐行           machine language 机器
+dialect n.方言，语调          operator n.作符           overflow n.溢出
+the program flow 程序流      translate vt.翻译，解释         machine instruction 机器指令
+expense n.费用，代价           forerunner n.先驱          arithmetic n.算术，算法
+manager module 管理模块      modular 摸块化           computer language 计算机语
+uniformity n.同样，划一        ancestor n.祖宗         composite symbol 复合型符号
+worder module 工作模块      cumbersome a.讨厌的，麻烦的    assembly language 汇编语
+
+assignment n.赋值           double ：声明双精度变量或函数
+floating point number浮点数        int： 声明整型变量或函数
+proliferation n.增服               struct：声明结构体变量或函数
+high-level language高级语           break：跳出当前循环pointer n.指针 
+natural language 自然语言         else ：条件语句否定分支（与 if 连用）
+array n.数组矩阵，              long ：声明长整型变量或函数
+source text 源文本             switch :用于开关语句
+subscript n.下标              case：开关语句分支
+intermediate language 中间语言         enum ：声明枚举类型
+type conversion 类型转换              register：声明积存器变量
+software development 软件开发         typedef：用以给数据类型取别名（当然还有其他作用）
+address arithmetic 地址运算        char ：声明字符型变量或函数
+map vt.映射，计划               extern：声明变量是在其他文件正声明（也可以看做是引用变量）
+denote vt.指示，表示             return ：子程序返回语句（可以带参数，也看不带参数）
+maintenance cost 维护费用     union：声明联合数据类型
+subprogram n.子程序       const ：声明只读变量
+legibility n.易读性，易识别       float：声明浮点型变量或函数
+separate compilation 分离式编泽         short ：声明短整型变量或函数
+amend vt.修正，改善                unsigned：声明无符号类型变量或函数
+alphabetic a.照字母次序的               continue：结束当前循环，开始下一轮循环
+consumer n.消费者                for：一种循环语句(可意会不可言传）
+digit n.数字位数                   signed：生命有符号类型变量或函数
+enormous a.巨大的，庞大的                           void ：声明函数无返回值或无参数，声明无类型指针（基本上就这三个作用）
+numeric expression 数值表达式         default：开关语句中的“其他”分支
+reliability n.可信赖性，可信度         goto：无条件跳转语句
+tap n.轻打，轻敲，选择           sizeof：计算数据类型长度
+safety n.安全，安全设备     volatile：说明变量在程序执行中可被隐含地改变
+print zone 打印区              do ：循环语句的循环体
+property n.财产，所有权        while ：循环语句的循环条件
+column n.列 
+correctness n.正确，          static ：声明静态变量
+functionality n.机能                if:条件语句
+semicolon n.分号 
+portable a.叮携带的，可搬运的     auto ：声明自动变量 一般不使用
+survey n.概观． 
+altoggle n.肘节开关 
+task n.作，任务 
+declaration n.宣告 说明 
+source program 源程序 
+mufti-dimension array 多维数组 
+object program 目标程序
